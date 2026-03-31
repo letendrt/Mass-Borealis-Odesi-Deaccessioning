@@ -11,3 +11,4 @@ This tool is solely for super-admins.
 2) Minimum python version: 3.6+
 
 
+https://docs.google.com/spreadsheets/d/1K07RApf98HVDQhxC0QBldHvUDj3MPArOs6k3liUatGQ/copy
