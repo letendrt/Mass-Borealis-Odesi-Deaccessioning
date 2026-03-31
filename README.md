@@ -8,4 +8,6 @@ This tool is solely for super-admins.
 
 ## Minimum Python Requirements 🐍🔧
 1) Local IDE (Jupyter, Wing, PyCharm, etc.)
-2) Minimum python version: 
+2) Minimum python version: 3.6+
+
+
