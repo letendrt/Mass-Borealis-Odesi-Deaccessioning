@@ -3,8 +3,8 @@ This tool is solely for super-admins.
 
 ## Code Purpose 🤔❓
 1) Creates TXT file holding automatically generated CURL commands for dataset deaccessioning (instructions on specific shell command line found below).
-2) Creates dataset backups.
-3) Creates JSON files for deaccessioning reason (links DOI of other dataset if it is a duplicate)
+2) Creates dataset backups on local drive.
+3) Creates JSON files for deaccessioning reason and actual dataset linkage (links DOI of other dataset if it is a duplicate).
 
 ## Minimum Python Requirements 🐍🔧
 1) Local IDE (Jupyter, Wing, PyCharm, etc.)
@@ -16,4 +16,18 @@ This tool is solely for super-admins.
               https://docs.google.com/spreadsheets/d/1K07RApf98HVDQhxC0QBldHvUDj3MPArOs6k3liUatGQ/copy
 2) Export the filled out Google Sheet in CSV format.
 3) Download the python code attached to this GitHub repository, and open it in a local python IDE or environment (Wing, PyCharm, linux environment, etc. - no cloud based IDE like Google Colab). 
-4) 
+4) Navigate to the "API AND FUNCTION PARAMETERS" section of the code (Line 20).
+
+     <kbd><img width="783" height="103" alt="image" src="https://github.com/user-attachments/assets/f5b20f70-0f92-4c1e-bece-000b516b2c0a" /></kbd>
+
+5) Comment out the undesired url_base_origin (keep either demo or production - default is production URL).
+
+    <kbd><img width="471" height="54" alt="image" src="https://github.com/user-attachments/assets/fa168e3c-81dc-494f-88ce-8ec56953c729" /></kbd>
+
+6) Fill out api_token_origin with your API key.
+
+    <kbd><img width="550" height="52" alt="image" src="https://github.com/user-attachments/assets/e6aae2ea-876b-4e90-b831-dcbe35df874b" /></kbd>
+
+7) Copy the path to the csv file in csv_file_directory.
+
+    <kbd><img width="858" height="149" alt="image" src="https://github.com/user-attachments/assets/1c47f295-6402-4feb-9c36-d53133aa3cb0" /></kbd>
