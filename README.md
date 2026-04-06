@@ -46,9 +46,9 @@ Note that these commands were run in PowerShell.
 
     <kbd><img width="696" height="190" alt="image" src="https://github.com/user-attachments/assets/76447dee-5b8f-4be8-87a2-c07bf82fccf7" /></kbd>
 
-3) Download backups of datasets by running the following command line - make sure to edit in the path to your log.txt file created by the python script:
+3) Download backups of datasets by running the following command line - make sure to edit in the path to your backup_commands.txt file created by the python script:
 
-    ```Get-Content "C:\path\to\log.txt" | ForEach-Object { Invoke-Expression $_ }```
+    ```Get-Content "C:\path\to\backup_commands.txt" | ForEach-Object { Invoke-Expression $_ }```
    
    Running this command will download all datasets listed in the log.txt file as ZIP packages. Make sure to navigate to your download directory of choice before initiating the command.
 
