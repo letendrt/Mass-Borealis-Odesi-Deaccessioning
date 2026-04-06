@@ -5,6 +5,7 @@ This tool is solely for super-admins.
 1) Creates TXT file holding automatically generated CURL commands for dataset deaccessioning (instructions on specific shell command line found below).
 2) Creates dataset backups on local drive.
 3) Creates JSON files for deaccessioning reason and actual dataset linkage (links DOI of other dataset if it is a duplicate).
+4) Automatically generates the Shell command lines.
 
 ## Minimum Python Requirements 🐍🔧
 1) Local IDE (Jupyter, Wing, PyCharm, etc.)
@@ -18,6 +19,12 @@ This tool is solely for super-admins.
 4) Place the python script and the CSV sheet in a same folder as depicted in the figure below.
 
     <kbd><img width="901" height="331" alt="image" src="https://github.com/user-attachments/assets/eecb633a-be96-479f-a920-8f0248e2ee06" /></kbd>
+
+    Note that after running the script, your folder will look like this:
+        <kbd><img width="867" height="342" alt="image" src="https://github.com/user-attachments/assets/7cc4ad0c-8eab-4753-b943-b5999f511846" /></kbd>
+
+   The script automatically creates a folder architecture to effectively organise the backup files and the deaccession JSON files created by the script. Note also that the script automatically creates the shell command lines described under the 'Shell-based Commands User Guide 🐚🛃' section. Those generated command lines can be found in the 'generated shell commands' file, as depicted below:
+       <kbd><img width="1241" height="144" alt="image" src="https://github.com/user-attachments/assets/f6bf7abc-e106-4e0c-95c7-33ce530b29d3" /></kbd>
 
 
 ## Python Script User Guide 🐍🛃
