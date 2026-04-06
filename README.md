@@ -5,7 +5,7 @@ This tool is solely for super-admins.
 1) Creates TXT file holding automatically generated CURL commands for dataset deaccessioning (instructions on specific shell command line found below).
 2) Creates dataset backups on local drive.
 3) Creates JSON files for deaccessioning reason and actual dataset linkage (links DOI of other dataset if it is a duplicate).
-4) Automatically generates the Shell command lines.
+4) Automatically generates Shell command lines.
 
 ## Minimum Python Requirements 🐍🔧
 1) Local IDE (Jupyter, Wing, PyCharm, etc.)
@@ -16,7 +16,7 @@ This tool is solely for super-admins.
               https://docs.google.com/spreadsheets/d/1K07RApf98HVDQhxC0QBldHvUDj3MPArOs6k3liUatGQ/copy
 2) Export the filled out Google Sheet in CSV format.
 3) Download the python code attached to this GitHub repository, and open it in a local python IDE or environment (Wing, PyCharm, linux environment, etc. - no cloud based IDE like Google Colab).
-4) Place the python script and the CSV sheet in a same folder as depicted in the figure below.
+4) Place the python script and the CSV sheet in a same folder (as depicted in the figure below).
 
     <kbd><img width="901" height="331" alt="image" src="https://github.com/user-attachments/assets/eecb633a-be96-479f-a920-8f0248e2ee06" /></kbd>
 
