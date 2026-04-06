@@ -53,7 +53,7 @@ Make sure to have fulfilled the file requirements above before continuing.
 6) Run the python script.
 
 ## Shell-based Commands User Guide 🐚🛃
-Note that these commands were run in PowerShell.
+Note that these commands are to be run in PowerShell. Note also that the script automatically generates these commands. They can be found in the 'generated shell commands' text file once the script has been run.
 
 1) Open your shell of choice. The shell itself shouldn't matter as long as it can run BASH.
 2) Define $API_TOKEN in the shell environment (the API key below is a fake).
