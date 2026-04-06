@@ -50,7 +50,7 @@ Note that these commands were run in PowerShell.
 
     ```Get-Content "C:\path\to\log.txt" | ForEach-Object { Invoke-Expression $_ }```
    
-   Running this command will download all datasets listed in the log.txt file as ZIP packages.
+   Running this command will download all datasets listed in the log.txt file as ZIP packages. Make sure to navigate to your download directory of choice before initiating the command.
 
 
 
