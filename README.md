@@ -52,6 +52,10 @@ Note that these commands were run in PowerShell.
    
    Running this command will download all datasets listed in the log.txt file as ZIP packages. Make sure to navigate to your download directory of choice before initiating the command.
 
+4) Confirm that backups were downloaded.
 
+    <kbd><img width="932" height="337" alt="image" src="https://github.com/user-attachments/assets/f127536b-537b-44c4-b1a1-6565705392b5" /></kbd>
+
+6) 
 
 
