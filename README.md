@@ -10,7 +10,7 @@ This tool is solely for super-admins.
 1) Local IDE (Jupyter, Wing, PyCharm, etc.)
 2) Minimum python version: 3.6+
 
-## User Guide 🪧🛃
+## Python Script User Guide 🐍🛃
 
 1) Start by filling out the Google sheet below for all of the datasets you wish to deaccession. The original code was written assuming that the to-be deaccessioned files were incomplete duplicates of another dataset due to a migration issue between Nesstar and Dataverse. The CSV sheet reflects this. The code, as it currently stands, does not allow for the deaccessioning of datasets that are unique - these should be deaccessioned manually. There are a few columns that MUST be filled: "DOI", "Duplicate?" (will always be yes given the nature of the code), "Duplicate DOI", "Which should be kept?", and "Deaccession Reason". The sheet link can also be foudn in the Python code above.
               https://docs.google.com/spreadsheets/d/1K07RApf98HVDQhxC0QBldHvUDj3MPArOs6k3liUatGQ/copy
@@ -31,3 +31,13 @@ This tool is solely for super-admins.
 7) Copy the path to the csv file in csv_file_directory.
 
     <kbd><img width="858" height="149" alt="image" src="https://github.com/user-attachments/assets/1c47f295-6402-4feb-9c36-d53133aa3cb0" /></kbd>
+
+8) Comment out the functions you do not desire running. The default is to run both the dataset backup function and the file deaccession TXT file creation function. Either select True or False for both functions.
+
+    <kbd><img width="433" height="120" alt="image" src="https://github.com/user-attachments/assets/054ad9e6-8658-438c-9e6a-5de0a64965e1" /></kbd>
+
+9) Run the python script.
+
+## Shell-based Commands User Guide 🐚🛃
+
+1) 
