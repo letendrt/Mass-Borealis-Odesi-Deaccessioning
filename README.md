@@ -12,5 +12,5 @@ This tool is solely for super-admins.
 
 ## User Guide 🪧🛃
 
-1) Start by filling out the CSV sheet below for all of the datasets you wish to deaccession. The present Sheet holds standardised field entry options that allow for the code to run efficiently. You must use a copy of this sheet to run the script. Any deviation from the column names or entry names could result in unsuccessful file harvesting for backup and JSON file creation.
+1) Start by filling out the CSV sheet below for all of the datasets you wish to deaccession. The original code was written assuming that the to-be deaccessioned files were incomplete duplicates of another dataset due to a migration issue between Nesstar and Dataverse. The CSV sheet reflects this. The code, as it currently stands, does not allow for the deaccessioning of datasets that are unique - these should be deaccessioned manually. There are a few columns that MUST be filled: "DOI", "Duplicate?" (will always be yes given the nature of the code), "Duplicate DOI", "Which should be kept?", and "Deaccession Reason".
               https://docs.google.com/spreadsheets/d/1K07RApf98HVDQhxC0QBldHvUDj3MPArOs6k3liUatGQ/copy
