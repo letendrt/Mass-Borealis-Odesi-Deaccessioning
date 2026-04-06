@@ -39,5 +39,9 @@ This tool is solely for super-admins.
 9) Run the python script.
 
 ## Shell-based Commands User Guide 🐚🛃
+Note that these commands were run in PowerShell.
 
-1) 
+1) Open your shell of choice. The shell itself shouldn't matter as long as it can run BASH.
+2)  
+
+
