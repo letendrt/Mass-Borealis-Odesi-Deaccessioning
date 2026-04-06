@@ -62,5 +62,5 @@ Note that these commands were run in PowerShell.
 
     ```Get-Content "C:\path\to\deac_commands.txt" | ForEach-Object { Invoke-Expression $_ }```
 
-6) Celebrate 🎊🎊
+6) Celebrate - you're done! 🎊🎊
 
