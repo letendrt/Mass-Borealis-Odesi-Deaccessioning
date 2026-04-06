@@ -42,7 +42,7 @@ This tool is solely for super-admins.
 Note that these commands were run in PowerShell.
 
 1) Open your shell of choice. The shell itself shouldn't matter as long as it can run BASH.
-2) Define $API_TOKEN in the shell environment.
+2) Define $API_TOKEN in the shell environment (the API key below is a fake).
 
     <kbd><img width="696" height="190" alt="image" src="https://github.com/user-attachments/assets/76447dee-5b8f-4be8-87a2-c07bf82fccf7" /></kbd>
 
