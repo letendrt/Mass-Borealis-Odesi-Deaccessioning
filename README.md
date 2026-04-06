@@ -58,7 +58,7 @@ Note that these commands were run in PowerShell.
 
 5) Run the commands to deaccession the datasets. Before running the command, make sure that the deac_commands.txt file is in the same directory as the deaccession reason JSON files created by the python script above. This command will only run with the API token of a super-admin.
 
-   ⚠️DEACCESSIONING a DATASET IS FINAL. THERE IS NO GOING BACK. ENSURE THAT THESE ARE INDEED THE DATASETS YOU WANT TO DEACCESSION⚠️
+   ⚠️DEACCESSIONING A DATASET IS FINAL - THERE IS NO GOING BACK⚠️
 
     ```Get-Content "C:\path\to\deac_commands.txt" | ForEach-Object { Invoke-Expression $_ }```
 
